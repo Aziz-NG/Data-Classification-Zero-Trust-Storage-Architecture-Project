@@ -64,6 +64,12 @@ I defined a classification schema within Microsoft Purview to handle diverse dat
 
 ### ☁️ Part 2: Secure Storage & Network Isolation
 
+### 🔐 Control 1: Encryption
+Storage encryption enabled viacustomer-managed keys (CMK)
+
+**Risk Mitigated:** Unauthorized data access at rest
+> 
+
 #### 🚫 Public Access Mitigation
 To eliminate "Leaky Bucket" syndrome, public access was disabled at the storage account level. 
 > img/[Public-Access-disabled.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Public-Access-disabled.png)
