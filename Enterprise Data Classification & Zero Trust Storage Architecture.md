@@ -67,7 +67,7 @@ img/[Label-Policy.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust
 #### 🚫 Public Access Mitigation
 To eliminate "Leaky Bucket" syndrome, public access was disabled at the storage account level. > img/[Public-Access-disabled.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Public-Access-disabled.png)
 * **Test:** Attempted to get access to a blob in the portal and via storage explorer.
-* **Result:** **Access Denied.** The resource remained unreachable from the public internet.
+* **Result:** **Access Denied.** The resource remained unreachable from the public internet. > 
 img/[Blob-Access-Denied.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Blob-Access-Denied.png)  ;  img/[Storage-Explorer-Failure.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Storage-Explorer-Failure.png)
 
 #### 🌐 Private Endpoint Implementation
