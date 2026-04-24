@@ -68,7 +68,7 @@ I defined a classification schema within Microsoft Purview to handle diverse dat
 Storage encryption enabled viacustomer-managed keys (CMK)
 
 **Risk Mitigated:** Unauthorized data access at rest
-> 
+> img/[Encryption-CMK.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Encryption-CMK.png)
 
 #### 🚫 Public Access Mitigation
 To eliminate "Leaky Bucket" syndrome, public access was disabled at the storage account level. 
