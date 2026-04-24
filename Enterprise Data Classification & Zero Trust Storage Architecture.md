@@ -74,9 +74,11 @@ To eliminate "Leaky Bucket" syndrome, public access was disabled at the storage 
 #### 🌐 Private Endpoint Implementation
 A Private Endpoint was provisioned to give the storage account a private IP address within a secured VNet. 
 > img/[Private-Endpoint.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Private-Endpoint.png)
+ ; > img/[DNS-Configuration.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/DNS-Configuration.png)
 * **Validation:** Access was tested via a Virtual Machine (VM) located inside the VNet.
 * **Result:** Using Azure Storage Explorer, I successfully connected to the storage and performed data operations (Upload/Download), proving that the private path was functional.
-
+> img/[Storage-Explorer-Successful-Connection.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/Storage-Explorer-Successful-Connection.png) ; 
+> img/[DNS-Resolution.png](https://github.com/Aziz-NG/Data-Classification-Zero-Trust-Storage-Architecture-Project/blob/main/img/DNS-Resolution.png)
 ---
 
 ### 🔍 Part 3: Monitoring & Auditability
